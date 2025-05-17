@@ -12,6 +12,13 @@ import javafx.stage.Stage;
  */
 public class Main extends Application {
 
+    /**
+   * Required entry point for launching JavaFX from environments like VSCode.
+   */
+  public static void main(String[] args) {
+    launch(args);  // Calls start(Stage stage)
+  }
+
   /**
    * Initialize what will be displayed.
    */
